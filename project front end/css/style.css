@@ -1,0 +1,638 @@
+@import url("bootstrap.min.css");
+@import url("fonts.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+@import url("animate.css");
+img {
+    width: 100%;
+}
+/*  */
+body {
+    font-family:Poppins-Regular;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+body {
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.header {
+    background-color: transparent;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 11;
+
+}
+.header .navbar .navbar-brand img {
+    max-width: 100px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 13px;
+    font-family: Poppins-Medium;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header .navbar .socail {
+    margin-inline-start: 40px;
+}
+.header .navbar .socail a {
+    color: #fff;
+    padding: 0 15px;
+}
+.color1{
+    color: rgb(237, 186, 70);
+}
+
+.home {
+    height: 100vh;
+    background-image: url(../img/bg_1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.home::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #00000083;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+.sec1text{
+    color: white;
+
+}
+.sec1text  h1{
+    font-family: Poppins-Thin ;
+
+}
+.sec1text  p{
+    font-size: 18px;
+    padding: 14px 0;
+
+}
+.iconhome{
+    font-size: 50px;
+    color: rgb(237, 186, 70);
+
+}
+.text1 {
+    font-size:14px;
+    color: #fff;
+    margin-top: 20px;
+}
+.fo1{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 31px -21px rgba(0, 0, 0, 0.33);
+
+}
+
+.btnhome {
+    padding: 16px 0;
+    background-color:rgb(237, 186, 70);
+    border: none;
+    width: 100%;
+    color: #fff;
+
+}
+.sec2{
+   margin-top: 50px;
+}
+.btnsec2{
+    padding: 13px 0;
+    background-color:rgb(237, 186, 70);
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+    color: #fff;
+}
+.f-b{
+    font-family: Poppins-Bold;
+    font-size: 16px;
+
+}
+.sec2-2{
+    margin-top: 100px;
+}
+.sec2-2text p{
+    
+    font-size: 12px;
+
+}
+.sec2-2text h2{
+    font-family: Poppins-Bold;
+    font-size: 40px;
+
+}
+.iconsec2{
+    font-size: 30px;
+    color: rgb(237, 186, 70);
+}
+.texticon{
+    color: #000;
+    font-size: 18px;
+}
+.text2{
+    padding: 10px 0;
+    font-size: 16px;
+}
+.p-9{
+    padding: 90px 0;
+}
+.p-3{
+    padding: 40px 0;
+}
+
+.sec3{
+    padding: 6em;
+}
+.sec3text p{
+    font-size: 12px;
+    color: rgb(237, 186, 70);
+}
+.sec3text h2{
+    font-size: 40px;
+    font-family: Poppins-Bold;
+    padding: 10px 0;
+}
+.card .cardimg{
+    position: relative;
+}
+.card .cardimg .cardimgtext{
+    position: absolute;
+    bottom: 0;
+    left: o;
+}
+.cardimgtext{
+    background-color: #fff;
+}
+.cardimgtext p{
+    color: rgb(237, 186, 70);
+}
+.cardimg img{
+    height: 200px;
+}
+.btnsec3{
+    border: 1px solid #ebebeb ;
+    background: transparent ;
+    color: #000000 ;
+    font-size: 14px;
+    padding: 0.375rem 0.75rem;
+    border-radius: 10%;  
+}
+.btnsec3:hover{
+    background-color: rgb(237, 186, 70);
+}
+.m-10{
+    margin-top: 10px;
+}
+.sec4{
+    background-image: url(../img/bg_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+    
+}
+.sec4::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #00000083;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+.sec4-1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.sec4text{
+    color: #fff;
+    margin-top: 50px;
+
+}
+.sec4text p{
+    font-size: 12px;
+
+}
+.sec4text h2{
+   font-family: Poppins-ExtraBold;
+   font-size: 40px;
+
+}
+.cardicon i{
+   border-radius:  50% ; 
+    border: 2px solid #fc983c; 
+    width: 80px;
+    height: 80px;
+    line-height: 70px; 
+   color: #fff;
+   font-size: 30px;
+   
+   
+}
+.cardsec4text{
+    color: #fff;
+}
+.cent{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; */
+    margin-top:100px ;
+
+
+}
+/* .m-20{
+    margin-top: 200px;
+}  */
+.cardsec4text p{
+    margin-top: 5px;
+    font-size: 16px;
+
+}
+.cardsec4text h4{
+    font-size: 18px;
+    font-family: Poppins-Medium;
+
+}
+.sec5{
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sec5text{
+     margin-top: 50px; 
+    text-align: center;
+}
+.sec5text p{
+   color: rgb(237, 186, 70);
+   font-size: 12px;
+}
+.sec5text h2{
+
+    font-size: 40px;
+    font-family: Poppins-ExtraBold;
+ }
+ .cardsec5img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   margin-left: 36%;
+    text-align: center;
+    margin-top: 30px;
+
+ }
+ .cardsec5text{
+    text-align: center;
+    padding: 20px 0;
+    
+ }
+ .cardsec5text h4{
+    color: rgb(237, 186, 70);
+    padding: 20px 0;
+
+ }
+ #color4{
+    color: rgb(204, 204, 204);
+ }
+ .cardsec5{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0 20px;
+    box-shadow: 0px 5px 30px -15px rgba(0, 0, 0, 0.19);
+    height: 400px;
+
+ }
+ .sec6{
+    margin-top:60px ;
+ }
+ .textsec6 h2{
+    font-family:  Poppins-ExtraBold;
+    font-size: 40px;
+     padding: 20px 0;
+ }
+ .textsec6 p{
+   color: rgb(102, 102, 102);
+    font-size: 16px;
+    line-height: 1.8;
+    
+
+ }
+ #about1{
+    color: rgb(237, 186, 70);
+    font-size: 12px;
+ }
+ #p-3{
+    padding: 15px 0;
+ }
+ .btnsec6{
+    padding: 8px 20px;
+    color: #fff;
+    background-color: rgb(237, 157, 79);
+    border: none;
+    border-radius: 5px;
+ }
+ .sec7{
+    margin-top:60px ;
+    
+ }
+ .sec7-1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 60px 0;
+
+ }
+ .sec7text p{
+    color: rgb(237, 157, 79);
+    font-size: 12px;
+
+ }
+ .sec7text h2{
+    font-family: Poppins-Bold;
+    font-size: 40px;
+
+ }
+ .cardsec7{
+    margin-top: 50px;
+
+ }
+ .cardsec7img img{
+    width: 100%;
+    height: 270px;
+ }
+ .cardsec7text h5{
+    font-size: 18px;
+    color: #000;
+    padding: 10px 0;
+
+ }
+ .cardsec7text p{
+   font-size: 16px;
+    color:rgb(100, 100, 100)
+
+ }
+ .cardsec7text a{
+    padding: 0 3px;
+     color:rgb(210, 210, 210)
+ 
+  }
+  
+  .cardsec7text :hover h5{
+    color: rgb(237, 157, 79);
+  }
+  .secabout{
+    height: 100vh;
+    background-image: url(../img/bg_2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    position: relative;
+    z-index: 1;
+  }
+  .secabout::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #0000004c;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+ .secabouttext a{
+    color:rgb(100, 100, 100);
+    
+
+ }
+ .secabouttext h1{
+    color:white;
+font-size: 60px;
+    font-family: Poppins-Medium;
+ }
+ .price{
+    margin-top: 60px;
+ }
+
+ 
+ #color5{
+    color: #fff;
+ }
+ #aaa{
+    color:white;
+    background-color: #fc983c;
+    padding: 20px 5px;
+    text-align: center;
+    
+ }
+ #aaa:after{
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 100px 0 100px;
+    background-color: #fc983c;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+ #bbb{
+
+    background-color: rgb(53, 58, 63);
+    padding: 20px 5px;
+    text-align: center;
+    color: #ebebeb;
+    
+ }
+ #ccc{
+    background-color:black;
+    padding: 20px 5px;
+    text-align: center;
+    color: #ebebeb;
+    
+ }
+.cardblogimg img{
+    height: 500px;
+}
+.cardblogtext{
+    text-align: center;
+}
+.cardblogtext h5{
+    font-size: 18px;
+    color: #000;
+    padding: 10px 0;
+
+ }
+ .cardblogtext p{
+   font-size: 16px;
+    color:rgb(100, 100, 100)
+
+ }
+ .cardblogtext a{
+    padding: 0 3px;
+     color:rgb(210, 210, 210)
+ 
+  }
+  
+  .cardblogtext :hover h5{
+    color: rgb(237, 157, 79);
+  }
+  .contact{
+    margin-top: 90px;
+  }
+  .iconcontact i{
+    font-size: 20px;
+  }
+  .contacttext p{
+    padding: 5px 0;
+
+  }
+  .contact2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 60px 0;
+  }
+  .contact2text {
+    font-size: 24px;
+  }
+  .bg{
+    background: #f8f9fa;
+    height: 550px;
+   
+  }
+  .btncontact{
+    padding: 12px 35px;
+    background: #fc983c;
+    border: 1px solid #fc983c; 
+    color: #fff ;
+    border-radius: 5px;
+    
+  }
+  .ifr{
+    height: 500px;
+    width: 100%;
+  }
+  .pricimg img{
+    
+    width: 180px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  .pad0{
+    padding: 0;
+  }
+  table {
+    border-collapse: collapse;
+    padding: 10px 0;
+}
+#color4{
+    color: #fc983c;
+    font-size: 20px;
+}
+#backg{
+    background-color: rgb(242, 242, 242);
+}
+.container3{
+    width: 80%;
+    margin: auto;
+}
+.footer{
+    font-size: 16px;
+    background: #000;
+    padding: 60px 0;
+}
+.f1icon {
+    margin-top: 40px;
+    margin-left: 50px;
+    
+}
+.f1icon a{
+    color: white;
+    font-size: 26px;
+    padding: 0 10px;
+    
+}
+.f1 p{
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 40px;
+
+}
+.f1 h4{
+    color: white;
+    font-size: 20px;
+
+}
+.f2 a{
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.1cm;
+    
+}
+.f2 h4{
+    color: white;
+    font-size: 20px;
+
+}
+.f3 h4{
+    color: white;
+    font-size: 20px;
+}
+.f3 .f3icon{
+    padding: 0 20px;
+   
+}
+.f3icon{
+    color:white;
+    line-height: 1.1cm;
+}
+.centerf{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    color: white;
+
+}
+.py-6{
+    padding: 60px 0;
+
+}
